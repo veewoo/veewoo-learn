@@ -1,0 +1,1190 @@
+[
+  {
+    "id": 3,
+    "japanese": "昨日、友達と映画を見に行きました。",
+    "english": "Yesterday, I went to see a movie with my friend.",
+    "englishWords": ["Yesterday", ",", "I", "went", "to", "see", "a", "movie", "with", "my", "friend", "."]
+  },
+  {
+    "id": 4,
+    "japanese": "この本はとても面白いです。",
+    "english": "This book is very interesting.",
+    "englishWords": ["This", "book", "is", "very", "interesting", "."]
+  },
+  {
+    "id": 5,
+    "japanese": "毎日、日本語を勉強しています。",
+    "english": "I study Japanese every day.",
+    "englishWords": ["I", "study", "Japanese", "every", "day", "."]
+  },
+  {
+    "id": 6,
+    "japanese": "週末、家族と公園へ散歩に行きました。",
+    "english": "I went for a walk in the park with my family over the weekend.",
+    "englishWords": ["I", "went", "for", "a", "walk", "in", "the", "park", "with", "my", "family", "over", "the", "weekend", "."]
+  },
+  {
+    "id": 7,
+    "japanese": "この料理の作り方を教えてください。",
+    "english": "Please teach me how to make this dish.",
+    "englishWords": ["Please", "teach", "me", "how", "to", "make", "this", "dish", "."]
+  },
+  {
+    "id": 8,
+    "japanese": "明日は晴れるといいですね。",
+    "english": "I hope it will be sunny tomorrow.",
+    "englishWords": ["I", "hope", "it", "will", "be", "sunny", "tomorrow", "."]
+  },
+  {
+    "id": 9,
+    "japanese": "駅までどのくらい時間がかかりますか。",
+    "english": "How long does it take to get to the station?",
+    "englishWords": ["How", "long", "does", "it", "take", "to", "get", "to", "the", "station", "?"]
+  },
+  {
+    "id": 10,
+    "japanese": "趣味は音楽を聴くことです。",
+    "english": "My hobby is listening to music.",
+    "englishWords": ["My", "hobby", "is", "listening", "to", "music", "."]
+  },
+  {
+    "id": 11,
+    "japanese": "日本へ行ったことがありますか。",
+    "english": "Have you ever been to Japan?",
+    "englishWords": ["Have", "you", "ever", "been", "to", "Japan", "?"]
+  },
+  {
+    "id": 12,
+    "japanese": "この漢字の読み方を教えてください。",
+    "english": "Please tell me how to read this kanji.",
+    "englishWords": ["Please", "tell", "me", "how", "to", "read", "this", "kanji", "."]
+  },
+  {
+    "id": 13,
+    "japanese": "将来、医者になりたいです。",
+    "english": "I want to become a doctor in the future.",
+    "englishWords": ["I", "want", "to", "become", "a", "doctor", "in", "the", "future", "."]
+  },
+  {
+    "id": 14,
+    "japanese": "何か飲み物はいかがですか。",
+    "english": "Would you like something to drink?",
+    "englishWords": ["Would", "you", "like", "something", "to", "drink", "?"]
+  },
+  {
+    "id": 15,
+    "japanese": "この近くに郵便局がありますか。",
+    "english": "Is there a post office near here?",
+    "englishWords": ["Is", "there", "a", "post", "office", "near", "here", "?"]
+  },
+  {
+    "id": 16,
+    "japanese": "昨日、新しい靴を買いました。",
+    "english": "I bought new shoes yesterday.",
+    "englishWords": ["I", "bought", "new", "shoes", "yesterday", "."]
+  },
+  {
+    "id": 17,
+    "japanese": "頭が痛いので、薬を飲みました。",
+    "english": "I had a headache, so I took some medicine.",
+    "englishWords": ["I", "had", "a", "headache", ",", "so", "I", "took", "some", "medicine", "."]
+  },
+  {
+    "id": 18,
+    "japanese": "来週、京都へ旅行に行きます。",
+    "english": "I am going on a trip to Kyoto next week.",
+    "englishWords": ["I", "am", "going", "on", "a", "trip", "to", "Kyoto", "next", "week", "."]
+  },
+  {
+    "id": 19,
+    "japanese": "この問題は難しすぎます。",
+    "english": "This problem is too difficult.",
+    "englishWords": ["This", "problem", "is", "too", "difficult", "."]
+  },
+  {
+    "id": 20,
+    "japanese": "もっとゆっくり話してください。",
+    "english": "Please speak more slowly.",
+    "englishWords": ["Please", "speak", "more", "slowly", "."]
+  },
+  {
+    "id": 21,
+    "japanese": "図書館で本を借りました。",
+    "english": "I borrowed a book from the library.",
+    "englishWords": ["I", "borrowed", "a", "book", "from", "the", "library", "."]
+  },
+  {
+    "id": 22,
+    "japanese": "今日の天気はどうですか。",
+    "english": "How is the weather today?",
+    "englishWords": ["How", "is", "the", "weather", "today", "?"]
+  },
+  {
+    "id": 23,
+    "japanese": "すみません、もう一度お願いします。",
+    "english": "Excuse me, please say it again.",
+    "englishWords": ["Excuse", "me", ",", "please", "say", "it", "again", "."]
+  },
+  {
+    "id": 24,
+    "japanese": "このバスは東京駅に行きますか。",
+    "english": "Does this bus go to Tokyo Station?",
+    "englishWords": ["Does", "this", "bus", "go", "to", "Tokyo", "Station", "?"]
+  },
+  {
+    "id": 25,
+    "japanese": "私は犬より猫の方が好きです。",
+    "english": "I like cats more than dogs.",
+    "englishWords": ["I", "like", "cats", "more", "than", "dogs", "."]
+  },
+  {
+    "id": 26,
+    "japanese": "朝ご飯はパンとコーヒーを食べました。",
+    "english": "I had bread and coffee for breakfast.",
+    "englishWords": ["I", "had", "bread", "and", "coffee", "for", "breakfast", "."]
+  },
+  {
+    "id": 27,
+    "japanese": "あなたの電話番号を教えてください。",
+    "english": "Please tell me your phone number.",
+    "englishWords": ["Please", "tell", "me", "your", "phone", "number", "."]
+  },
+  {
+    "id": 28,
+    "japanese": "この映画は感動的でした。",
+    "english": "This movie was moving.",
+    "englishWords": ["This", "movie", "was", "moving", "."]
+  },
+  {
+    "id": 29,
+    "japanese": "会議の時間は何時ですか。",
+    "english": "What time is the meeting?",
+    "englishWords": ["What", "time", "is", "the", "meeting", "?"]
+  },
+  {
+    "id": 30,
+    "japanese": "お名前は何ですか。",
+    "english": "What is your name?",
+    "englishWords": ["What", "is", "your", "name", "?"]
+  },
+  {
+    "id": 31,
+    "japanese": "これは誰の傘ですか。",
+    "english": "Whose umbrella is this?",
+    "englishWords": ["Whose", "umbrella", "is", "this", "?"]
+  },
+  {
+    "id": 32,
+    "japanese": "写真を撮ってもいいですか。",
+    "english": "May I take a picture?",
+    "englishWords": ["May", "I", "take", "a", "picture", "?"]
+  },
+  {
+    "id": 33,
+    "japanese": "お手洗いはどこですか。",
+    "english": "Where is the restroom?",
+    "englishWords": ["Where", "is", "the", "restroom", "?"]
+  },
+  {
+    "id": 34,
+    "japanese": "気分が悪いです。",
+    "english": "I feel sick.",
+    "englishWords": ["I", "feel", "sick", "."]
+  },
+  {
+    "id": 35,
+    "japanese": "窓を開けてもいいですか。",
+    "english": "May I open the window?",
+    "englishWords": ["May", "I", "open", "the", "window", "?"]
+  },
+  {
+    "id": 36,
+    "japanese": "この辞書を使ってもいいですか。",
+    "english": "May I use this dictionary?",
+    "englishWords": ["May", "I", "use", "this", "dictionary", "?"]
+  },
+  {
+    "id": 37,
+    "japanese": "彼は英語を話すのが上手です。",
+    "english": "He is good at speaking English.",
+    "englishWords": ["He", "is", "good", "at", "speaking", "English", "."]
+  },
+  {
+    "id": 38,
+    "japanese": "彼女は来年結婚します。",
+    "english": "She will get married next year.",
+    "englishWords": ["She", "will", "get", "married", "next", "year", "."]
+  },
+  {
+    "id": 39,
+    "japanese": "何かお手伝いしましょうか。",
+    "english": "Shall I help you with something?",
+    "englishWords": ["Shall", "I", "help", "you", "with", "something", "?"]
+  },
+  {
+    "id": 40,
+    "japanese": "ここでタバコを吸ってはいけません。",
+    "english": "You must not smoke here.",
+    "englishWords": ["You", "must", "not", "smoke", "here", "."]
+  },
+  {
+    "id": 41,
+    "japanese": "彼は毎日運動をしています。",
+    "english": "He exercises every day.",
+    "englishWords": ["He", "exercises", "every", "day", "."]
+  },
+  {
+    "id": 42,
+    "japanese": "この公園はとても静かです。",
+    "english": "This park is very quiet.",
+    "englishWords": ["This", "park", "is", "very", "quiet", "."]
+  },
+  {
+    "id": 43,
+    "japanese": "彼女はピアノを弾くことができます。",
+    "english": "She can play the piano.",
+    "englishWords": ["She", "can", "play", "the", "piano", "."]
+  },
+  {
+    "id": 44,
+    "japanese": "明日のパーティーに来ますか。",
+    "english": "Are you coming to the party tomorrow?",
+    "englishWords": ["Are", "you", "coming", "to", "the", "party", "tomorrow", "?"]
+  },
+  {
+    "id": 45,
+    "japanese": "この仕事は明日までに終わらせなければなりません。",
+    "english": "This work must be finished by tomorrow.",
+    "englishWords": ["This", "work", "must", "be", "finished", "by", "tomorrow", "."]
+  },
+  {
+    "id": 46,
+    "japanese": "彼は親切な人です。",
+    "english": "He is a kind person.",
+    "englishWords": ["He", "is", "a", "kind", "person", "."]
+  },
+  {
+    "id": 47,
+    "japanese": "この町は古いお寺で有名です。",
+    "english": "This town is famous for its old temples.",
+    "englishWords": ["This", "town", "is", "famous", "for", "its", "old", "temples", "."]
+  },
+  {
+    "id": 48,
+    "japanese": "私は甘いものが大好きです。",
+    "english": "I love sweet things.",
+    "englishWords": ["I", "love", "sweet", "things", "."]
+  },
+  {
+    "id": 49,
+    "japanese": "彼はいつも冗談を言っています。",
+    "english": "He is always telling jokes.",
+    "englishWords": ["He", "is", "always", "telling", "jokes", "."]
+  },
+  {
+    "id": 50,
+    "japanese": "今日の会議は中止になりました。",
+    "english": "Today's meeting has been cancelled.",
+    "englishWords": ["Today's", "meeting", "has", "been", "cancelled", "."]
+  },
+  {
+    "id": 51,
+    "japanese": "雨が降っているので、傘を持って行った方がいいです。",
+    "english": "It's raining, so you should take an umbrella.",
+    "englishWords": ["It's", "raining", ",", "so", "you", "should", "take", "an", "umbrella", "."]
+  },
+  {
+    "id": 52,
+    "japanese": "彼女は料理が得意で、いつも美味しい食事を作ってくれます。",
+    "english": "She is good at cooking and always makes delicious meals for us.",
+    "englishWords": ["She", "is", "good", "at", "cooking", "and", "always", "makes", "delicious", "meals", "for", "us", "."]
+  },
+  {
+    "id": 53,
+    "japanese": "このプロジェクトは来月までに完成させる予定です。",
+    "english": "This project is scheduled to be completed by next month.",
+    "englishWords": ["This", "project", "is", "scheduled", "to", "be", "completed", "by", "next", "month", "."]
+  },
+  {
+    "id": 54,
+    "japanese": "電車が遅れているため、会議に遅刻してしまいました。",
+    "english": "I was late for the meeting because the train was delayed.",
+    "englishWords": ["I", "was", "late", "for", "the", "meeting", "because", "the", "train", "was", "delayed", "."]
+  },
+  {
+    "id": 55,
+    "japanese": "この小説は最近読んだ本の中で一番面白かったです。",
+    "english": "This novel was the most interesting book I've read recently.",
+    "englishWords": ["This", "novel", "was", "the", "most", "interesting", "book", "I've", "read", "recently", "."]
+  },
+  {
+    "id": 56,
+    "japanese": "彼は仕事が忙しくて、最近友達と会う時間がありません。",
+    "english": "He is busy with work and hasn't had time to meet friends recently.",
+    "englishWords": ["He", "is", "busy", "with", "work", "and", "hasn't", "had", "time", "to", "meet", "friends", "recently", "."]
+  },
+  {
+    "id": 57,
+    "japanese": "健康のために、毎日野菜をたくさん食べるようにしています。",
+    "english": "For my health, I try to eat lots of vegetables every day.",
+    "englishWords": ["For", "my", "health", ",", "I", "try", "to", "eat", "lots", "of", "vegetables", "every", "day", "."]
+  },
+  {
+    "id": 58,
+    "japanese": "新しいアパートは駅から歩いて10分のところにあります。",
+    "english": "The new apartment is a 10-minute walk from the station.",
+    "englishWords": ["The", "new", "apartment", "is", "a", "10-minute", "walk", "from", "the", "station", "."]
+  },
+  {
+    "id": 59,
+    "japanese": "この薬を飲むと、頭痛が治ると思います。",
+    "english": "I think your headache will be cured if you take this medicine.",
+    "englishWords": ["I", "think", "your", "headache", "will", "be", "cured", "if", "you", "take", "this", "medicine", "."]
+  },
+  {
+    "id": 60,
+    "japanese": "彼女は日本語を3年間勉強していますが、まだ上手に話せません。",
+    "english": "She has been studying Japanese for three years, but still can't speak it well.",
+    "englishWords": ["She", "has", "been", "studying", "Japanese", "for", "three", "years", ",", "but", "still", "can't", "speak", "it", "well", "."]
+  },
+  {
+    "id": 61,
+    "japanese": "このレストランは値段が高いですが、とても美味しいです。",
+    "english": "This restaurant is expensive, but the food is very delicious.",
+    "englishWords": ["This", "restaurant", "is", "expensive", ",", "but", "the", "food", "is", "very", "delicious", "."]
+  },
+  {
+    "id": 62,
+    "japanese": "子供の頃、よく祖母の家で夏休みを過ごしました。",
+    "english": "When I was a child, I often spent summer vacations at my grandmother's house.",
+    "englishWords": ["When", "I", "was", "a", "child", ",", "I", "often", "spent", "summer", "vacations", "at", "my", "grandmother's", "house", "."]
+  },
+  {
+    "id": 63,
+    "japanese": "明日は重要な試験があるので、今夜は早く寝るつもりです。",
+    "english": "I have an important exam tomorrow, so I plan to go to bed early tonight.",
+    "englishWords": ["I", "have", "an", "important", "exam", "tomorrow", ",", "so", "I", "plan", "to", "go", "to", "bed", "early", "tonight", "."]
+  },
+  {
+    "id": 64,
+    "japanese": "彼は外国語を学ぶのが好きで、現在5つの言語を話せます。",
+    "english": "He likes learning foreign languages and can currently speak five languages.",
+    "englishWords": ["He", "likes", "learning", "foreign", "languages", "and", "can", "currently", "speak", "five", "languages", "."]
+  },
+  {
+    "id": 65,
+    "japanese": "この道をまっすぐ行くと、右側に銀行が見えます。",
+    "english": "If you go straight down this road, you'll see a bank on the right side.",
+    "englishWords": ["If", "you", "go", "straight", "down", "this", "road", ",", "you'll", "see", "a", "bank", "on", "the", "right", "side", "."]
+  },
+  {
+    "id": 66,
+    "japanese": "部屋が暑すぎるので、エアコンをつけてもらえませんか。",
+    "english": "The room is too hot, could you please turn on the air conditioner?",
+    "englishWords": ["The", "room", "is", "too", "hot", ",", "could", "you", "please", "turn", "on", "the", "air", "conditioner", "?"]
+  },
+  {
+    "id": 67,
+    "japanese": "今度の休みに、家族と一緒に温泉旅行に行く予定です。",
+    "english": "I plan to go on a hot spring trip with my family during the next holiday.",
+    "englishWords": ["I", "plan", "to", "go", "on", "a", "hot", "spring", "trip", "with", "my", "family", "during", "the", "next", "holiday", "."]
+  },
+  {
+    "id": 68,
+    "japanese": "彼女は毎朝6時に起きて、ジョギングをしています。",
+    "english": "She gets up at 6 o'clock every morning and goes jogging.",
+    "englishWords": ["She", "gets", "up", "at", "6", "o'clock", "every", "morning", "and", "goes", "jogging", "."]
+  },
+  {
+    "id": 69,
+    "japanese": "この問題について、もう少し詳しく説明していただけませんか。",
+    "english": "Could you please explain this problem in a little more detail?",
+    "englishWords": ["Could", "you", "please", "explain", "this", "problem", "in", "a", "little", "more", "detail", "?"]
+  },
+  {
+    "id": 70,
+    "japanese": "彼は大学を卒業してから、ずっと同じ会社で働いています。",
+    "english": "He has been working at the same company ever since he graduated from university.",
+    "englishWords": ["He", "has", "been", "working", "at", "the", "same", "company", "ever", "since", "he", "graduated", "from", "university", "."]
+  },
+  {
+    "id": 71,
+    "japanese": "この映画のチケットは売り切れているかもしれません。",
+    "english": "The tickets for this movie might be sold out.",
+    "englishWords": ["The", "tickets", "for", "this", "movie", "might", "be", "sold", "out", "."]
+  },
+  {
+    "id": 72,
+    "japanese": "授業中は携帯電話の電源を切らなければなりません。",
+    "english": "You must turn off your mobile phone during class.",
+    "englishWords": ["You", "must", "turn", "off", "your", "mobile", "phone", "during", "class", "."]
+  },
+  {
+    "id": 73,
+    "japanese": "この本は図書館で借りたものなので、来週までに返さなければなりません。",
+    "english": "This book was borrowed from the library, so I must return it by next week.",
+    "englishWords": ["This", "book", "was", "borrowed", "from", "the", "library", ",", "so", "I", "must", "return", "it", "by", "next", "week", "."]
+  },
+  {
+    "id": 74,
+    "japanese": "彼女は最近ダイエットを始めて、3キロ痩せました。",
+    "english": "She recently started a diet and lost 3 kilograms.",
+    "englishWords": ["She", "recently", "started", "a", "diet", "and", "lost", "3", "kilograms", "."]
+  },
+  {
+    "id": 75,
+    "japanese": "この店の商品は品質が良くて、値段も安いです。",
+    "english": "The products in this store are good quality and the prices are also cheap.",
+    "englishWords": ["The", "products", "in", "this", "store", "are", "good", "quality", "and", "the", "prices", "are", "also", "cheap", "."]
+  },
+  {
+    "id": 76,
+    "japanese": "台風が近づいているので、外出は控えた方がいいでしょう。",
+    "english": "A typhoon is approaching, so it would be better to refrain from going out.",
+    "englishWords": ["A", "typhoon", "is", "approaching", ",", "so", "it", "would", "be", "better", "to", "refrain", "from", "going", "out", "."]
+  },
+  {
+    "id": 77,
+    "japanese": "彼は性格が明るくて、誰とでもすぐに友達になれます。",
+    "english": "He has a cheerful personality and can quickly become friends with anyone.",
+    "englishWords": ["He", "has", "a", "cheerful", "personality", "and", "can", "quickly", "become", "friends", "with", "anyone", "."]
+  },
+  {
+    "id": 78,
+    "japanese": "この会社では、残業は月に20時間までと決められています。",
+    "english": "In this company, overtime is limited to 20 hours per month.",
+    "englishWords": ["In", "this", "company", ",", "overtime", "is", "limited", "to", "20", "hours", "per", "month", "."]
+  },
+  {
+    "id": 79,
+    "japanese": "彼女は音楽の才能があり、将来はプロの歌手になりたいそうです。",
+    "english": "She has musical talent and apparently wants to become a professional singer in the future.",
+    "englishWords": ["She", "has", "musical", "talent", "and", "apparently", "wants", "to", "become", "a", "professional", "singer", "in", "the", "future", "."]
+  },
+  {
+    "id": 80,
+    "japanese": "このコンピューターは古くて動作が遅いので、新しいものに買い替える必要があります。",
+    "english": "This computer is old and slow, so we need to replace it with a new one.",
+    "englishWords": ["This", "computer", "is", "old", "and", "slow", ",", "so", "we", "need", "to", "replace", "it", "with", "a", "new", "one", "."]
+  },
+  {
+    "id": 81,
+    "japanese": "昨夜は遅くまで勉強していたので、今朝は起きるのが大変でした。",
+    "english": "I studied until late last night, so it was difficult to get up this morning.",
+    "englishWords": ["I", "studied", "until", "late", "last", "night", ",", "so", "it", "was", "difficult", "to", "get", "up", "this", "morning", "."]
+  },
+  {
+    "id": 82,
+    "japanese": "この地域は治安が良いので、夜でも安心して歩けます。",
+    "english": "This area has good security, so you can walk safely even at night.",
+    "englishWords": ["This", "area", "has", "good", "security", ",", "so", "you", "can", "walk", "safely", "even", "at", "night", "."]
+  },
+  {
+    "id": 83,
+    "japanese": "彼は経験が豊富で、どんな問題でも解決できます。",
+    "english": "He has extensive experience and can solve any problem.",
+    "englishWords": ["He", "has", "extensive", "experience", "and", "can", "solve", "any", "problem", "."]
+  },
+  {
+    "id": 84,
+    "japanese": "この薬は副作用があるかもしれないので、医師に相談してから飲んでください。",
+    "english": "This medicine may have side effects, so please consult a doctor before taking it.",
+    "englishWords": ["This", "medicine", "may", "have", "side", "effects", ",", "so", "please", "consult", "a", "doctor", "before", "taking", "it", "."]
+  },
+  {
+    "id": 85,
+    "japanese": "彼女は留学の準備で忙しく、最近あまり連絡が取れません。",
+    "english": "She is busy preparing for studying abroad and I haven't been able to contact her much recently.",
+    "englishWords": ["She", "is", "busy", "preparing", "for", "studying", "abroad", "and", "I", "haven't", "been", "able", "to", "contact", "her", "much", "recently", "."]
+  },
+  {
+    "id": 86,
+    "japanese": "この技術は将来、私たちの生活を大きく変える可能性があります。",
+    "english": "This technology has the potential to greatly change our lives in the future.",
+    "englishWords": ["This", "technology", "has", "the", "potential", "to", "greatly", "change", "our", "lives", "in", "the", "future", "."]
+  },
+  {
+    "id": 87,
+    "japanese": "彼は努力家で、いつも目標に向かって頑張っています。",
+    "english": "He is hardworking and always strives toward his goals.",
+    "englishWords": ["He", "is", "hardworking", "and", "always", "strives", "toward", "his", "goals", "."]
+  },
+  {
+    "id": 88,
+    "japanese": "この料理は材料が新鮮で、作り方も簡単です。",
+    "english": "This dish uses fresh ingredients and the cooking method is also simple.",
+    "englishWords": ["This", "dish", "uses", "fresh", "ingredients", "and", "the", "cooking", "method", "is", "also", "simple", "."]
+  },
+  {
+    "id": 89,
+    "japanese": "彼女は責任感が強く、任された仕事は必ず完成させます。",
+    "english": "She has a strong sense of responsibility and always completes the work she is assigned.",
+    "englishWords": ["She", "has", "a", "strong", "sense", "of", "responsibility", "and", "always", "completes", "the", "work", "she", "is", "assigned", "."]
+  },
+  {
+    "id": 90,
+    "japanese": "この建物は地震に強い構造になっているので、安全です。",
+    "english": "This building has an earthquake-resistant structure, so it is safe.",
+    "englishWords": ["This", "building", "has", "an", "earthquake-resistant", "structure", ",", "so", "it", "is", "safe", "."]
+  },
+  {
+    "id": 91,
+    "japanese": "彼は環境問題に興味があり、リサイクル活動に参加しています。",
+    "english": "He is interested in environmental issues and participates in recycling activities.",
+    "englishWords": ["He", "is", "interested", "in", "environmental", "issues", "and", "participates", "in", "recycling", "activities", "."]
+  },
+  {
+    "id": 92,
+    "japanese": "この展覧会は今月末まで開催されているので、ぜひ見に行ってください。",
+    "english": "This exhibition is being held until the end of this month, so please go see it.",
+    "englishWords": ["This", "exhibition", "is", "being", "held", "until", "the", "end", "of", "this", "month", ",", "so", "please", "go", "see", "it", "."]
+  },
+  {
+    "id": 93,
+    "japanese": "彼女は集中力があり、どんなに騒がしい場所でも勉強できます。",
+    "english": "She has good concentration and can study even in the noisiest places.",
+    "englishWords": ["She", "has", "good", "concentration", "and", "can", "study", "even", "in", "the", "noisiest", "places", "."]
+  },
+  {
+    "id": 94,
+    "japanese": "この商品は人気が高いため、注文してから届くまで時間がかかります。",
+    "english": "This product is very popular, so it takes time from ordering until delivery.",
+    "englishWords": ["This", "product", "is", "very", "popular", ",", "so", "it", "takes", "time", "from", "ordering", "until", "delivery", "."]
+  },
+  {
+    "id": 95,
+    "japanese": "彼は創造性が豊かで、いつも新しいアイデアを提案します。",
+    "english": "He is very creative and always proposes new ideas.",
+    "englishWords": ["He", "is", "very", "creative", "and", "always", "proposes", "new", "ideas", "."]
+  },
+  {
+    "id": 96,
+    "japanese": "この地域の人口は少子高齢化の影響で減少しています。",
+    "english": "The population of this region is decreasing due to the effects of declining birth rates and aging society.",
+    "englishWords": ["The", "population", "of", "this", "region", "is", "decreasing", "due", "to", "the", "effects", "of", "declining", "birth", "rates", "and", "aging", "society", "."]
+  },
+  {
+    "id": 97,
+    "japanese": "彼女は協調性があり、チームワークを大切にします。",
+    "english": "She is cooperative and values teamwork.",
+    "englishWords": ["She", "is", "cooperative", "and", "values", "teamwork", "."]
+  },
+  {
+    "id": 98,
+    "japanese": "この研究は科学技術の発展に大きく貢献すると期待されています。",
+    "english": "This research is expected to greatly contribute to the development of science and technology.",
+    "englishWords": ["This", "research", "is", "expected", "to", "greatly", "contribute", "to", "the", "development", "of", "science", "and", "technology", "."]
+  },
+  {
+    "id": 99,
+    "japanese": "彼は柔軟性があり、変化する状況にすぐに対応できます。",
+    "english": "He is flexible and can quickly adapt to changing situations.",
+    "englishWords": ["He", "is", "flexible", "and", "can", "quickly", "adapt", "to", "changing", "situations", "."]
+  },
+  {
+    "id": 100,
+    "japanese": "この政策は経済成長を促進し、雇用機会を増やすことを目的としています。",
+    "english": "This policy aims to promote economic growth and increase employment opportunities.",
+    "englishWords": ["This", "policy", "aims", "to", "promote", "economic", "growth", "and", "increase", "employment", "opportunities", "."]
+  },
+  {
+    "id": 101,
+    "japanese": "もし時間があれば、一緒に映画を見に行きませんか。",
+    "english": "If you have time, would you like to go see a movie together?",
+    "englishWords": ["If", "you", "have", "time", ",", "would", "you", "like", "to", "go", "see", "a", "movie", "together", "?"]
+  },
+  {
+    "id": 102,
+    "japanese": "彼女は日本に住んでいるうちに、日本語がペラペラになりました。",
+    "english": "While living in Japan, she became fluent in Japanese.",
+    "englishWords": ["While", "living", "in", "Japan", ",", "she", "became", "fluent", "in", "Japanese", "."]
+  },
+  {
+    "id": 103,
+    "japanese": "電車に乗り遅れてしまったので、タクシーで行くことにしました。",
+    "english": "Since I missed the train, I decided to go by taxi.",
+    "englishWords": ["Since", "I", "missed", "the", "train", ",", "I", "decided", "to", "go", "by", "taxi", "."]
+  },
+  {
+    "id": 104,
+    "japanese": "このレポートは来週の金曜日までに提出しなければなりません。",
+    "english": "This report must be submitted by next Friday.",
+    "englishWords": ["This", "report", "must", "be", "submitted", "by", "next", "Friday", "."]
+  },
+  {
+    "id": 105,
+    "japanese": "彼は風邪をひいているにもかかわらず、会議に出席しました。",
+    "english": "Despite having a cold, he attended the meeting.",
+    "englishWords": ["Despite", "having", "a", "cold", ",", "he", "attended", "the", "meeting", "."]
+  },
+  {
+    "id": 106,
+    "japanese": "この問題について、専門家に相談することをお勧めします。",
+    "english": "I recommend consulting an expert about this problem.",
+    "englishWords": ["I", "recommend", "consulting", "an", "expert", "about", "this", "problem", "."]
+  },
+  {
+    "id": 107,
+    "japanese": "彼女は母親に料理を教えてもらいました。",
+    "english": "She had her mother teach her how to cook.",
+    "englishWords": ["She", "had", "her", "mother", "teach", "her", "how", "to", "cook", "."]
+  },
+  {
+    "id": 108,
+    "japanese": "この道路は工事中のため、通行止めになっています。",
+    "english": "This road is closed due to construction work.",
+    "englishWords": ["This", "road", "is", "closed", "due", "to", "construction", "work", "."]
+  },
+  {
+    "id": 109,
+    "japanese": "試験の結果が発表されるまで、とても緊張していました。",
+    "english": "I was very nervous until the exam results were announced.",
+    "englishWords": ["I", "was", "very", "nervous", "until", "the", "exam", "results", "were", "announced", "."]
+  },
+  {
+    "id": 110,
+    "japanese": "彼は失敗を恐れずに、新しいことに挑戦します。",
+    "english": "He challenges new things without fear of failure.",
+    "englishWords": ["He", "challenges", "new", "things", "without", "fear", "of", "failure", "."]
+  },
+  {
+    "id": 111,
+    "japanese": "この計画が成功するかどうかは、皆の協力次第です。",
+    "english": "Whether this plan succeeds or not depends on everyone's cooperation.",
+    "englishWords": ["Whether", "this", "plan", "succeeds", "or", "not", "depends", "on", "everyone's", "cooperation", "."]
+  },
+  {
+    "id": 112,
+    "japanese": "彼女は忙しいふりをして、手伝いを避けています。",
+    "english": "She pretends to be busy to avoid helping.",
+    "englishWords": ["She", "pretends", "to", "be", "busy", "to", "avoid", "helping", "."]
+  },
+  {
+    "id": 113,
+    "japanese": "もう少し早く出発すれば良かったと後悔しています。",
+    "english": "I regret that I should have left a little earlier.",
+    "englishWords": ["I", "regret", "that", "I", "should", "have", "left", "a", "little", "earlier", "."]
+  },
+  {
+    "id": 114,
+    "japanese": "この薬を飲むと、眠くなる場合があります。",
+    "english": "Taking this medicine may make you drowsy.",
+    "englishWords": ["Taking", "this", "medicine", "may", "make", "you", "drowsy", "."]
+  },
+  {
+    "id": 115,
+    "japanese": "彼は約束を守らないことで有名です。",
+    "english": "He is famous for not keeping his promises.",
+    "englishWords": ["He", "is", "famous", "for", "not", "keeping", "his", "promises", "."]
+  },
+  {
+    "id": 116,
+    "japanese": "このプロジェクトを完成させるには、もっと時間が必要です。",
+    "english": "More time is needed to complete this project.",
+    "englishWords": ["More", "time", "is", "needed", "to", "complete", "this", "project", "."]
+  },
+  {
+    "id": 117,
+    "japanese": "彼女は自分の意見をはっきりと述べることができます。",
+    "english": "She can clearly express her own opinions.",
+    "englishWords": ["She", "can", "clearly", "express", "her", "own", "opinions", "."]
+  },
+  {
+    "id": 118,
+    "japanese": "この件について、詳しく調べてから返事をします。",
+    "english": "I will investigate this matter thoroughly before giving you an answer.",
+    "englishWords": ["I", "will", "investigate", "this", "matter", "thoroughly", "before", "giving", "you", "an", "answer", "."]
+  },
+  {
+    "id": 119,
+    "japanese": "彼は毎日ジムに通うことで、健康を維持しています。",
+    "english": "He maintains his health by going to the gym every day.",
+    "englishWords": ["He", "maintains", "his", "health", "by", "going", "to", "the", "gym", "every", "day", "."]
+  },
+  {
+    "id": 120,
+    "japanese": "この商品は品質が良い割には、値段が安いです。",
+    "english": "This product is cheap considering its good quality.",
+    "englishWords": ["This", "product", "is", "cheap", "considering", "its", "good", "quality", "."]
+  },
+  {
+    "id": 121,
+    "japanese": "彼女は英語を話すのに慣れていないので、緊張します。",
+    "english": "She gets nervous because she's not used to speaking English.",
+    "englishWords": ["She", "gets", "nervous", "because", "she's", "not", "used", "to", "speaking", "English", "."]
+  },
+  {
+    "id": 122,
+    "japanese": "このレストランは予約なしでは入れないかもしれません。",
+    "english": "You might not be able to enter this restaurant without a reservation.",
+    "englishWords": ["You", "might", "not", "be", "able", "to", "enter", "this", "restaurant", "without", "a", "reservation", "."]
+  },
+  {
+    "id": 123,
+    "japanese": "彼は困っている人を見ると、必ず助けようとします。",
+    "english": "When he sees someone in trouble, he always tries to help.",
+    "englishWords": ["When", "he", "sees", "someone", "in", "trouble", ",", "he", "always", "tries", "to", "help", "."]
+  },
+  {
+    "id": 124,
+    "japanese": "この地域は交通の便が良いので、住みやすいです。",
+    "english": "This area is easy to live in because of its good transportation access.",
+    "englishWords": ["This", "area", "is", "easy", "to", "live", "in", "because", "of", "its", "good", "transportation", "access", "."]
+  },
+  {
+    "id": 125,
+    "japanese": "彼女は失敗を恐れることなく、積極的に発言します。",
+    "english": "She speaks up actively without fear of making mistakes.",
+    "englishWords": ["She", "speaks", "up", "actively", "without", "fear", "of", "making", "mistakes", "."]
+  },
+  {
+    "id": 126,
+    "japanese": "このコンサートのチケットは発売と同時に売り切れました。",
+    "english": "The tickets for this concert sold out as soon as they went on sale.",
+    "englishWords": ["The", "tickets", "for", "this", "concert", "sold", "out", "as", "soon", "as", "they", "went", "on", "sale", "."]
+  },
+  {
+    "id": 127,
+    "japanese": "彼は経験が少ないにも関わらず、素晴らしい仕事をしています。",
+    "english": "Despite having little experience, he is doing excellent work.",
+    "englishWords": ["Despite", "having", "little", "experience", ",", "he", "is", "doing", "excellent", "work", "."]
+  },
+  {
+    "id": 128,
+    "japanese": "この問題を解決するためには、皆で協力する必要があります。",
+    "english": "Everyone needs to cooperate to solve this problem.",
+    "englishWords": ["Everyone", "needs", "to", "cooperate", "to", "solve", "this", "problem", "."]
+  },
+  {
+    "id": 129,
+    "japanese": "彼女は子供の頃から音楽に興味を持っていました。",
+    "english": "She has been interested in music since she was a child.",
+    "englishWords": ["She", "has", "been", "interested", "in", "music", "since", "she", "was", "a", "child", "."]
+  },
+  {
+    "id": 130,
+    "japanese": "この技術が普及すれば、私たちの生活はもっと便利になるでしょう。",
+    "english": "If this technology becomes widespread, our lives will become more convenient.",
+    "englishWords": ["If", "this", "technology", "becomes", "widespread", ",", "our", "lives", "will", "become", "more", "convenient", "."]
+  },
+  {
+    "id": 131,
+    "japanese": "彼は忙しいと言いながらも、友達の相談に乗ってくれます。",
+    "english": "While saying he's busy, he still listens to his friends' problems.",
+    "englishWords": ["While", "saying", "he's", "busy", ",", "he", "still", "listens", "to", "his", "friends'", "problems", "."]
+  },
+  {
+    "id": 132,
+    "japanese": "この店の料理は美味しいことで評判です。",
+    "english": "This restaurant is famous for its delicious food.",
+    "englishWords": ["This", "restaurant", "is", "famous", "for", "its", "delicious", "food", "."]
+  },
+  {
+    "id": 133,
+    "japanese": "彼女は日本語の勉強を始めてから、日本の文化にも興味を持つようになりました。",
+    "english": "Since she started studying Japanese, she has also become interested in Japanese culture.",
+    "englishWords": ["Since", "she", "started", "studying", "Japanese", ",", "she", "has", "also", "become", "interested", "in", "Japanese", "culture", "."]
+  },
+  {
+    "id": 134,
+    "japanese": "この会議では、重要な決定が下されることになっています。",
+    "english": "Important decisions are scheduled to be made at this meeting.",
+    "englishWords": ["Important", "decisions", "are", "scheduled", "to", "be", "made", "at", "this", "meeting", "."]
+  },
+  {
+    "id": 135,
+    "japanese": "彼は周りの人に迷惑をかけないよう、いつも気を使っています。",
+    "english": "He is always careful not to cause trouble for people around him.",
+    "englishWords": ["He", "is", "always", "careful", "not", "to", "cause", "trouble", "for", "people", "around", "him", "."]
+  },
+  {
+    "id": 136,
+    "japanese": "この番組は若い人たちの間で人気が高まっています。",
+    "english": "This program is gaining popularity among young people.",
+    "englishWords": ["This", "program", "is", "gaining", "popularity", "among", "young", "people", "."]
+  },
+  {
+    "id": 137,
+    "japanese": "彼女は試験に合格するために、毎日遅くまで勉強しています。",
+    "english": "She studies until late every day in order to pass the exam.",
+    "englishWords": ["She", "studies", "until", "late", "every", "day", "in", "order", "to", "pass", "the", "exam", "."]
+  },
+  {
+    "id": 138,
+    "japanese": "この薬は医師の処方箋なしには買うことができません。",
+    "english": "This medicine cannot be purchased without a doctor's prescription.",
+    "englishWords": ["This", "medicine", "cannot", "be", "purchased", "without", "a", "doctor's", "prescription", "."]
+  },
+  {
+    "id": 139,
+    "japanese": "彼は自分の間違いを認めて、素直に謝りました。",
+    "english": "He acknowledged his mistake and apologized honestly.",
+    "englishWords": ["He", "acknowledged", "his", "mistake", "and", "apologized", "honestly", "."]
+  },
+  {
+    "id": 140,
+    "japanese": "この地震により、多くの建物が被害を受けました。",
+    "english": "Many buildings were damaged by this earthquake.",
+    "englishWords": ["Many", "buildings", "were", "damaged", "by", "this", "earthquake", "."]
+  },
+  {
+    "id": 141,
+    "japanese": "彼女は将来のことを考えて、今から準備を始めています。",
+    "english": "Thinking about the future, she is starting to prepare now.",
+    "englishWords": ["Thinking", "about", "the", "future", ",", "she", "is", "starting", "to", "prepare", "now", "."]
+  },
+  {
+    "id": 142,
+    "japanese": "この製品は環境に優しい材料で作られています。",
+    "english": "This product is made from environmentally friendly materials.",
+    "englishWords": ["This", "product", "is", "made", "from", "environmentally", "friendly", "materials", "."]
+  },
+  {
+    "id": 143,
+    "japanese": "彼は責任感が強いので、任された仕事は最後まで頑張ります。",
+    "english": "Because he has a strong sense of responsibility, he works hard on assigned tasks until the end.",
+    "englishWords": ["Because", "he", "has", "a", "strong", "sense", "of", "responsibility", ",", "he", "works", "hard", "on", "assigned", "tasks", "until", "the", "end", "."]
+  },
+  {
+    "id": 144,
+    "japanese": "この問題については、もう少し時間をかけて検討する必要があります。",
+    "english": "We need to take a little more time to consider this problem.",
+    "englishWords": ["We", "need", "to", "take", "a", "little", "more", "time", "to", "consider", "this", "problem", "."]
+  },
+  {
+    "id": 145,
+    "japanese": "彼女は困難な状況でも、諦めることなく努力を続けています。",
+    "english": "Even in difficult situations, she continues to make efforts without giving up.",
+    "englishWords": ["Even", "in", "difficult", "situations", ",", "she", "continues", "to", "make", "efforts", "without", "giving", "up", "."]
+  },
+  {
+    "id": 146,
+    "japanese": "この研究の成果は、医療分野の発展に貢献するでしょう。",
+    "english": "The results of this research will contribute to the development of the medical field.",
+    "englishWords": ["The", "results", "of", "this", "research", "will", "contribute", "to", "the", "development", "of", "the", "medical", "field", "."]
+  },
+  {
+    "id": 147,
+    "japanese": "彼は語学力を向上させるために、毎日外国語の勉強をしています。",
+    "english": "He studies foreign languages every day to improve his language skills.",
+    "englishWords": ["He", "studies", "foreign", "languages", "every", "day", "to", "improve", "his", "language", "skills", "."]
+  },
+  {
+    "id": 148,
+    "japanese": "このシステムが導入されれば、作業効率が大幅に改善されるはずです。",
+    "english": "If this system is introduced, work efficiency should be greatly improved.",
+    "englishWords": ["If", "this", "system", "is", "introduced", ",", "work", "efficiency", "should", "be", "greatly", "improved", "."]
+  },
+  {
+    "id": 149,
+    "japanese": "彼女は他人の気持ちを理解することが得意です。",
+    "english": "She is good at understanding other people's feelings.",
+    "englishWords": ["She", "is", "good", "at", "understanding", "other", "people's", "feelings", "."]
+  },
+  {
+    "id": 150,
+    "japanese": "この法律は来年から施行されることになっています。",
+    "english": "This law is scheduled to come into effect from next year.",
+    "englishWords": ["This", "law", "is", "scheduled", "to", "come", "into", "effect", "from", "next", "year", "."]
+  },
+  {
+    "id": 151,
+    "japanese": "彼女は努力すればするほど、上達が早くなります。",
+    "english": "The more effort she makes, the faster her improvement becomes.",
+    "englishWords": ["The", "more", "effort", "she", "makes", ",", "the", "faster", "her", "improvement", "becomes", "."]
+  },
+  {
+    "id": 152,
+    "japanese": "この商品は需要が高いため、値段が上がっています。",
+    "english": "The price of this product is rising due to high demand.",
+    "englishWords": ["The", "price", "of", "this", "product", "is", "rising", "due", "to", "high", "demand", "."]
+  },
+  {
+    "id": 153,
+    "japanese": "彼は約束の時間に遅れそうなので、急いで準備しています。",
+    "english": "He is preparing hurriedly because he seems likely to be late for his appointment.",
+    "englishWords": ["He", "is", "preparing", "hurriedly", "because", "he", "seems", "likely", "to", "be", "late", "for", "his", "appointment", "."]
+  },
+  {
+    "id": 154,
+    "japanese": "この地域では、昔から伝統的な祭りが行われています。",
+    "english": "Traditional festivals have been held in this region since ancient times.",
+    "englishWords": ["Traditional", "festivals", "have", "been", "held", "in", "this", "region", "since", "ancient", "times", "."]
+  },
+  {
+    "id": 155,
+    "japanese": "彼女は自分の夢を実現するために、海外に留学することにしました。",
+    "english": "She decided to study abroad in order to realize her dreams.",
+    "englishWords": ["She", "decided", "to", "study", "abroad", "in", "order", "to", "realize", "her", "dreams", "."]
+  },
+  {
+    "id": 156,
+    "japanese": "この会社は従業員の福利厚生を重視しています。",
+    "english": "This company places importance on employee welfare benefits.",
+    "englishWords": ["This", "company", "places", "importance", "on", "employee", "welfare", "benefits", "."]
+  },
+  {
+    "id": 157,
+    "japanese": "彼は困難な状況にもめげずに、目標に向かって進んでいます。",
+    "english": "He continues toward his goal without being discouraged by difficult circumstances.",
+    "englishWords": ["He", "continues", "toward", "his", "goal", "without", "being", "discouraged", "by", "difficult", "circumstances", "."]
+  },
+  {
+    "id": 158,
+    "japanese": "この建物は耐震性を高めるために改修されました。",
+    "english": "This building was renovated to improve its earthquake resistance.",
+    "englishWords": ["This", "building", "was", "renovated", "to", "improve", "its", "earthquake", "resistance", "."]
+  },
+  {
+    "id": 159,
+    "japanese": "彼女は子育てと仕事を両立させるのに苦労しています。",
+    "english": "She is struggling to balance child-rearing and work.",
+    "englishWords": ["She", "is", "struggling", "to", "balance", "child-rearing", "and", "work", "."]
+  },
+  {
+    "id": 160,
+    "japanese": "この薬は副作用の心配がないので、安心して使えます。",
+    "english": "This medicine can be used safely because there's no worry about side effects.",
+    "englishWords": ["This", "medicine", "can", "be", "used", "safely", "because", "there's", "no", "worry", "about", "side", "effects", "."]
+  },
+  {
+    "id": 161,
+    "japanese": "彼は細かいことにこだわりすぎて、全体が見えなくなっています。",
+    "english": "He's so obsessed with details that he can't see the big picture.",
+    "englishWords": ["He's", "so", "obsessed", "with", "details", "that", "he", "can't", "see", "the", "big", "picture", "."]
+  },
+  {
+    "id": 162,
+    "japanese": "この地域の人口減少は深刻な問題となっています。",
+    "english": "The population decline in this region has become a serious problem.",
+    "englishWords": ["The", "population", "decline", "in", "this", "region", "has", "become", "a", "serious", "problem", "."]
+  },
+  {
+    "id": 163,
+    "japanese": "彼女は日本語能力試験に合格するまで、諦めないつもりです。",
+    "english": "She intends not to give up until she passes the Japanese Language Proficiency Test.",
+    "englishWords": ["She", "intends", "not", "to", "give", "up", "until", "she", "passes", "the", "Japanese", "Language", "Proficiency", "Test", "."]
+  },
+  {
+    "id": 164,
+    "japanese": "この技術の開発により、医療の質が向上することが期待されています。",
+    "english": "The development of this technology is expected to improve the quality of medical care.",
+    "englishWords": ["The", "development", "of", "this", "technology", "is", "expected", "to", "improve", "the", "quality", "of", "medical", "care", "."]
+  },
+  {
+    "id": 165,
+    "japanese": "彼は人との関係を大切にしているので、多くの友人がいます。",
+    "english": "He has many friends because he values relationships with people.",
+    "englishWords": ["He", "has", "many", "friends", "because", "he", "values", "relationships", "with", "people", "."]
+  },
+  {
+    "id": 166,
+    "japanese": "この企画が実現すれば、地域の活性化につながるでしょう。",
+    "english": "If this project is realized, it will lead to regional revitalization.",
+    "englishWords": ["If", "this", "project", "is", "realized", ",", "it", "will", "lead", "to", "regional", "revitalization", "."]
+  },
+  {
+    "id": 167,
+    "japanese": "彼女は忙しい中でも、家族との時間を大切にしています。",
+    "english": "Even though she's busy, she values time with her family.",
+    "englishWords": ["Even", "though", "she's", "busy", ",", "she", "values", "time", "with", "her", "family", "."]
+  },
+  {
+    "id": 168,
+    "japanese": "この問題を解決するには、根本的な原因を探る必要があります。",
+    "english": "To solve this problem, we need to investigate the fundamental cause.",
+    "englishWords": ["To", "solve", "this", "problem", ",", "we", "need", "to", "investigate", "the", "fundamental", "cause", "."]
+  },
+  {
+    "id": 169,
+    "japanese": "彼は失敗から学ぶことの大切さを理解しています。",
+    "english": "He understands the importance of learning from failures.",
+    "englishWords": ["He", "understands", "the", "importance", "of", "learning", "from", "failures", "."]
+  },
+  {
+    "id": 170,
+    "japanese": "この制度は市民の意見を反映して作られました。",
+    "english": "This system was created reflecting citizens' opinions.",
+    "englishWords": ["This", "system", "was", "created", "reflecting", "citizens'", "opinions", "."]
+  },
+  {
+    "id": 171,
+    "japanese": "彼女は自分の能力を過小評価する傾向があります。",
+    "english": "She tends to underestimate her own abilities.",
+    "englishWords": ["She", "tends", "to", "underestimate", "her", "own", "abilities", "."]
+  },
+  {
+    "id": 172,
+    "japanese": "この研究は将来の科学技術発展の基礎となるでしょう。",
+    "english": "This research will become the foundation for future scientific and technological development.",
+    "englishWords": ["This", "research", "will", "become", "the", "foundation", "for", "future", "scientific", "and", "technological", "development", "."]
+  },
+  {
+    "id": 173,
+    "japanese": "彼は周囲の期待に応えようと、一生懸命頑張っています。",
+    "english": "He is working very hard to meet the expectations of those around him.",
+    "englishWords": ["He", "is", "working", "very", "hard", "to", "meet", "the", "expectations", "of", "those", "around", "him", "."]
+  },
+  {
+    "id": 174,
+    "japanese": "この地域は自然災害のリスクが低いことで知られています。",
+    "english": "This region is known for having a low risk of natural disasters.",
+    "englishWords": ["This", "region", "is", "known", "for", "having", "a", "low", "risk", "of", "natural", "disasters", "."]
+  },
+  {
+    "id": 175,
+    "japanese": "彼女は困っている人がいると、放っておけない性格です。",
+    "english": "She has a personality that can't leave people alone when they're in trouble.",
+    "englishWords": ["She", "has", "a", "personality", "that", "can't", "leave", "people", "alone", "when", "they're", "in", "trouble", "."]
+  },
+  {
+    "id": 176,
+    "japanese": "この計画は予算の関係で、規模を縮小せざるを得ませんでした。",
+    "english": "Due to budget constraints, we had no choice but to reduce the scale of this plan.",
+    "englishWords": ["Due", "to", "budget", "constraints", ",", "we", "had", "no", "choice", "but", "to", "reduce", "the", "scale", "of", "this", "plan", "."]
+  },
+  {
+    "id": 177,
+    "japanese": "彼は他人の批判を気にせず、自分の信念を貫いています。",
+    "english": "He sticks to his beliefs without worrying about criticism from others.",
+    "englishWords": ["He", "sticks", "to", "his", "beliefs", "without", "worrying", "about", "criticism", "from", "others", "."]
+  },
+  {
+    "id": 178,
+    "japanese": "この商品は機能性とデザイン性を兼ね備えています。",
+    "english": "This product combines both functionality and design.",
+    "englishWords": ["This", "product", "combines", "both", "functionality", "and", "design", "."]
+  },
+  {
+    "id": 179,
+    "japanese": "彼女は語学習得のコツを掴んでから、上達が著しくなりました。",
+    "english": "Her improvement became remarkable after she grasped the knack for language acquisition.",
+    "englishWords": ["Her", "improvement", "became", "remarkable", "after", "she", "grasped", "the", "knack", "for", "language", "acquisition", "."]
+  },
+  {
+    "id": 180,
+    "japanese": "この政策は長期的な視点から検討される必要があります。",
+    "english": "This policy needs to be considered from a long-term perspective.",
+    "englishWords": ["This", "policy", "needs", "to", "be", "considered", "from", "a", "long-term", "perspective", "."]
+  },
+  {
+    "id": 181,
+    "japanese": "彼は自分の限界を知った上で、適切な目標を設定しています。",
+    "english": "He sets appropriate goals after knowing his own limitations.",
+    "englishWords": ["He", "sets", "appropriate", "goals", "after", "knowing", "his", "own", "limitations", "."]
+  },
+  {
+    "id": 182,
+    "japanese": "この地域では、高齢化が進んでいることが課題となっています。",
+    "english": "The advancing aging population in this region has become a challenge.",
+    "englishWords": ["The", "advancing", "aging", "population", "in", "this", "region", "has", "become", "a", "challenge", "."]
+  },
+  {
+    "id": 183,
+    "japanese": "彼女は自分の経験を活かして、後輩を指導しています。",
+    "english": "She is guiding her juniors by making use of her own experience.",
+    "englishWords": ["She", "is", "guiding", "her", "juniors", "by", "making", "use", "of", "her", "own", "experience", "."]
+  },
+  {
+    "id": 184,
+    "japanese": "このシステムは利用者の安全性を最優先に設計されています。",
+    "english": "This system is designed with user safety as the top priority.",
+    "englishWords": ["This", "system", "is", "designed", "with", "user", "safety", "as", "the", "top", "priority", "."]
+  },
+  {
+    "id": 185,
+    "japanese": "彼は現状に満足せず、常に向上心を持っています。",
+    "english": "He is not satisfied with the current situation and always has a desire for improvement.",
+    "englishWords": ["He", "is", "not", "satisfied", "with", "the", "current", "situation", "and", "always", "has", "a", "desire", "for", "improvement", "."]
+  },
+  {
+    "id": 186,
+    "japanese": "この研究成果は国際的に高く評価されています。",
+    "english": "The results of this research are highly evaluated internationally.",
+    "englishWords": ["The", "results", "of", "this", "research", "are", "highly", "evaluated", "internationally", "."]
+  },
+  {
+    "id": 187,
+    "japanese": "彼女は多忙な日々の中でも、自分の時間を確保しています。",
+    "english": "Even in her busy daily life, she secures time for herself.",
+    "englishWords": ["Even", "in", "her", "busy", "daily", "life", ",", "she", "secures", "time", "for", "herself", "."]
+  },
+  {
+    "id": 188,
+    "japanese": "この技術革新は産業界に大きな変化をもたらしました。",
+    "english": "This technological innovation brought about major changes in the industrial world.",
+    "englishWords": ["This", "technological", "innovation", "brought", "about", "major", "changes", "in", "the", "industrial", "world", "."]
+  },
+  {
+    "id": 189,
+    "japanese": "彼は困難に直面しても、冷静に対処することができます。",
+    "english": "He can deal with difficulties calmly even when facing them.",
+    "englishWords": ["He", "can", "deal", "with", "difficulties", "calmly", "even", "when", "facing", "them", "."]
+  },
+  {
+    "id": 190,
+    "japanese": "この制度の導入により、作業の効率化が図られました。",
+    "english": "The introduction of this system achieved improved work efficiency.",
+    "englishWords": ["The", "introduction", "of", "this", "system", "achieved", "improved", "work", "efficiency", "."]
+  },
+  {
+    "id": 191,
+    "japanese": "彼女は自分の価値観を大切にしながら、他人を尊重しています。",
+    "english": "She respects others while cherishing her own values.",
+    "englishWords": ["She", "respects", "others", "while", "cherishing", "her", "own", "values", "."]
+  },
+  {
+    "id": 192,
+    "japanese": "この地域の経済発展は、観光業に依存している部分が大きいです。",
+    "english": "The economic development of this region largely depends on the tourism industry.",
+    "englishWords": ["The", "economic", "development", "of", "this", "region", "largely", "depends", "on", "the", "tourism", "industry", "."]
+  },
+  {
+    "id": 193,
+    "japanese": "彼は問題解決のために、様々な角度から検討しています。",
+    "english": "He is examining the problem from various angles to solve it.",
+    "englishWords": ["He", "is", "examining", "the", "problem", "from", "various", "angles", "to", "solve", "it", "."]
+  },
+  {
+    "id": 194,
+    "japanese": "この製品は品質管理が徹底されているので、信頼性が高いです。",
+    "english": "This product has high reliability because quality control is thoroughly implemented.",
+    "englishWords": ["This", "product", "has", "high", "reliability", "because", "quality", "control", "is", "thoroughly", "implemented", "."]
+  },
+  {
+    "id": 195,
+    "japanese": "彼女は言葉だけでなく、行動でも思いやりを示しています。",
+    "english": "She shows consideration not only in words but also in actions.",
+    "englishWords": ["She", "shows", "consideration", "not", "only", "in", "words", "but", "also", "in", "actions", "."]
+  },
+  {
+    "id": 196,
+    "japanese": "この会議では、参加者全員の意見が聞かれました。",
+    "english": "In this meeting, opinions from all participants were heard.",
+    "englishWords": ["In", "this", "meeting", ",", "opinions", "from", "all", "participants", "were", "heard", "."]
+  },
+  {
+    "id": 197,
+    "japanese": "彼は自分の専門分野で、常に最新の知識を身につけています。",
+    "english": "He always acquires the latest knowledge in his field of expertise.",
+    "englishWords": ["He", "always", "acquires", "the", "latest", "knowledge", "in", "his", "field", "of", "expertise", "."]
+  },
+  {
+    "id": 198,
+    "japanese": "この取り組みは環境保護の観点からも重要な意味を持っています。",
+    "english": "This initiative has important significance from an environmental protection perspective as well.",
+    "englishWords": ["This", "initiative", "has", "important", "significance", "from", "an", "environmental", "protection", "perspective", "as", "well", "."]
+  },
+  {
+    "id": 199,
+    "japanese": "彼女は文化の違いを理解し、多様性を受け入れています。",
+    "english": "She understands cultural differences and accepts diversity.",
+    "englishWords": ["She", "understands", "cultural", "differences", "and", "accepts", "diversity", "."]
+  },
+  {
+    "id": 200,
+    "japanese": "この課題を克服するためには、継続的な努力が必要不可欠です。",
+    "english": "Continuous effort is absolutely essential to overcome this challenge.",
+    "englishWords": ["Continuous", "effort", "is", "absolutely", "essential", "to", "overcome", "this", "challenge", "."]
+  }
+]
