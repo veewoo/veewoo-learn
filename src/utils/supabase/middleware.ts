@@ -2,6 +2,9 @@
 import { createServerClient } from "@supabase/ssr";
 import { type NextRequest, NextResponse } from "next/server";
 
+type CookieOptions = Parameters<ReturnType<typeof NextResponse.next>["cookies"]["set"]>[2];
+type CookieToSet = { name: string; value: string; options?: CookieOptions };
+
 export const createClient = (request: NextRequest) => {
     // Create an unmodified response
     let supabaseResponse = NextResponse.next({
@@ -19,7 +22,7 @@ export const createClient = (request: NextRequest) => {
                 getAll() {
                     return request.cookies.getAll()
                 },
-                setAll(cookiesToSet) {
+                setAll(cookiesToSet: CookieToSet[]) {
                     cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value))
                     supabaseResponse = NextResponse.next({
                         request,
