@@ -18,51 +18,104 @@ export default function PWAInstall() {
   const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
-    // Register the service worker
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker
-          .register("/sw.js")
-          .then(
-            function (registration) {
-              console.log(
-                "ServiceWorker registration successful with scope: ",
-                registration.scope
-              );
-            },
-            function (err) {
-              console.log("ServiceWorker registration failed: ", err);
+    let hasRefreshedForNewWorker = false;
+
+    const triggerWorkerActivation = (registration: ServiceWorkerRegistration) => {
+      if (registration.waiting) {
+        registration.waiting.postMessage({ type: "SKIP_WAITING" });
+      }
+    };
+
+    const registerServiceWorker = async () => {
+      if (!("serviceWorker" in navigator)) {
+        return;
+      }
+
+      try {
+        const registration = await navigator.serviceWorker.register("/sw.js");
+        console.log(
+          "ServiceWorker registration successful with scope: ",
+          registration.scope
+        );
+
+        await registration.update();
+
+        triggerWorkerActivation(registration);
+
+        registration.addEventListener("updatefound", () => {
+          const newWorker = registration.installing;
+          if (!newWorker) {
+            return;
+          }
+
+          newWorker.addEventListener("statechange", () => {
+            if (
+              newWorker.state === "installed" &&
+              navigator.serviceWorker.controller
+            ) {
+              triggerWorkerActivation(registration);
             }
-          );
-      });
-    }
+          });
+        });
+      } catch (err) {
+        console.log("ServiceWorker registration failed: ", err);
+      }
+    };
+
+    const handleControllerChange = () => {
+      if (hasRefreshedForNewWorker) {
+        return;
+      }
+
+      hasRefreshedForNewWorker = true;
+      window.location.reload();
+    };
 
     // Check if app is already installed
     const checkAppInstalled = () => {
-      if (window.matchMedia('(display-mode: standalone)').matches) {
+      if (window.matchMedia("(display-mode: standalone)").matches) {
         // App is running in standalone mode (installed)
         setIsInstalled(true);
       }
     };
-    
+
+    const handleBeforeInstallPrompt = (event: Event) => {
+      const installPromptEvent = event as BeforeInstallPromptEvent;
+
+      // Prevent Chrome and Edge from automatically showing the prompt
+      installPromptEvent.preventDefault();
+      setDeferredPrompt(installPromptEvent);
+      setShowInstallButton(true);
+    };
+
+    const handleAppInstalled = () => {
+      setShowInstallButton(false);
+      setIsInstalled(true);
+      console.log("PWA was installed");
+    };
+
+    window.addEventListener("load", registerServiceWorker);
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.addEventListener("controllerchange", handleControllerChange);
+    }
+
     checkAppInstalled();
 
     // Add PWA install prompt
-    window.addEventListener("beforeinstallprompt", (e) => {
-      // Prevent Chrome 67 and earlier from automatically showing the prompt
-      e.preventDefault();
-      // Stash the event so it can be triggered later
-      setDeferredPrompt(e as BeforeInstallPromptEvent);
-      // Show install button
-      setShowInstallButton(true);
-    });
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
 
     // Hide the button when the app is installed
-    window.addEventListener('appinstalled', () => {
-      setShowInstallButton(false);
-      setIsInstalled(true);
-      console.log('PWA was installed');
-    });
+    window.addEventListener("appinstalled", handleAppInstalled);
+
+    return () => {
+      window.removeEventListener("load", registerServiceWorker);
+      window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+      window.removeEventListener("appinstalled", handleAppInstalled);
+
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.removeEventListener("controllerchange", handleControllerChange);
+      }
+    };
   }, []);
 
   const handleInstall = async () => {
@@ -76,10 +129,10 @@ export default function PWAInstall() {
     // Wait for the user to respond to the prompt
     const { outcome } = await deferredPrompt.userChoice;
     
-    if (outcome === 'accepted') {
-      console.log('User accepted the install prompt');
+    if (outcome === "accepted") {
+      console.log("User accepted the install prompt");
     } else {
-      console.log('User dismissed the install prompt');
+      console.log("User dismissed the install prompt");
     }
     
     // Clear the saved prompt
