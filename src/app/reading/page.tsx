@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ReloadIcon } from "@radix-ui/react-icons";
 import { BottomMenu } from "../../components/BottomMenu";
+import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 import { TooltipState, Token } from "@/types/passage";
 import { openMazii } from "@/utils/mazii";
 import { useGetPassage } from "@/hooks/useGetPassage";
@@ -153,21 +153,21 @@ export default function ReadingPage() {
   }, []);
 
   return (
-    <div className="container mx-auto pt-4 pb-24 max-w-3xl">
-      <Card className="shadow-lg pt-0">
+    <div className="container mx-auto pb-24 max-w-3xl">
+      <div className="p-4">
         {isFetching ? (
-          <CardContent className="pt-6 flex items-center justify-center min-h-[400px]">
+          <div className="flex items-center justify-center min-h-[400px]">
             <div className="flex items-center gap-2">
               <ReloadIcon className="h-4 w-4 animate-spin" />
               <p>Loading passage...</p>
             </div>
-          </CardContent>
+          </div>
         ) : error ? (
-          <CardContent className="pt-6 text-red-500">
+          <div className="text-red-500">
             <p>Error: {(error as Error).message}</p>
-          </CardContent>
+          </div>
         ) : !data ? (
-          <CardContent className="pt-6 text-center min-h-[400px] flex flex-col items-center justify-center">
+          <div className="text-center min-h-[400px] flex flex-col items-center justify-center">
             <p className="mb-4">No passage loaded.</p>
             <button
               onClick={() => refetch()}
@@ -175,10 +175,10 @@ export default function ReadingPage() {
             >
               Load Passage
             </button>
-          </CardContent>
+          </div>
         ) : (
           <>
-            <CardContent className="p-4">
+            <div>
               {renderTokenizedPassage()}
               {data.questions && data.questions.length > 0 && (
                 <div className="mt-6">
@@ -248,8 +248,8 @@ export default function ReadingPage() {
                   ))}
                 </div>
               )}
-            </CardContent>
-            <CardFooter className="flex justify-between items-center">
+            </div>
+            <div className="flex justify-between items-center">
               {!hasCheckedAnswers && (
                 <button
                   onClick={checkAnswers}
@@ -268,10 +268,10 @@ export default function ReadingPage() {
               >
                 Next Passage
               </button>
-            </CardFooter>
+            </div>
           </>
         )}
-      </Card>
+      </div>
       {tooltip.visible && tooltip.content && (
         <div
           className="absolute bg-white border shadow-lg rounded-md p-4 z-10"
@@ -297,6 +297,7 @@ export default function ReadingPage() {
           <p className="text-sm text-gray-400 italic">{tooltip.content.type}</p>
         </div>
       )}
+      <ScrollToTopButton bottomOffsetClassName="bottom-28" />
       <BottomMenu
         onOpenMazii={handleOpenMazii}
         onOpenGoogleSearch={handleOpenGoogleSearch}
