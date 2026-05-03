@@ -3,6 +3,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import bingTranslatorLogo from "@/assets/bing-translator-logo-64x64.png";
+import googleTranslateLogo from "@/assets/google-translate-logo-64x64.png";
+import googleSearchLogo from "@/assets/google-search-logo-64x64.png";
 import {
   Dialog,
   DialogContent,
@@ -19,7 +22,6 @@ interface BottomMenuProps {
 }
 
 export function BottomMenu({
-  onOpenMazii,
   onOpenGoogleTranslate,
   onOpenGoogleSearch,
   getSelectedText,
@@ -34,7 +36,7 @@ export function BottomMenu({
       {process.env.NEXT_PUBLIC_EMBED_SITE_URL && (
         <iframe
           src={process.env.NEXT_PUBLIC_EMBED_SITE_URL}
-          className="w-[170px] h-8 ml-[-10px] border-none"
+          className="w-[170px] h-8 border-none"
           scrolling="no"
         />
       )}
@@ -54,7 +56,7 @@ export function BottomMenu({
                 width={24}
                 height={24}
                 className="w-6 h-6"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png?20210729021049"
+                src={bingTranslatorLogo}
               />
             </Button>
           </DialogTrigger>
@@ -84,7 +86,7 @@ export function BottomMenu({
             width={24}
             height={24}
             className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Translate_logo.svg"
+            src={googleTranslateLogo}
           />
         </Button>
       )}
@@ -100,26 +102,10 @@ export function BottomMenu({
             width={24}
             height={24}
             className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png"
+            src={googleSearchLogo}
           />
         </Button>
       )}
-      {/* {onOpenMazii && (
-        <Button
-          size="icon"
-          variant="outline"
-          onClick={onOpenMazii}
-          className="w-10 h-10"
-        >
-          <Image
-            src="https://mazii.net/assets/images/logo/ic_mazii.png"
-            alt="Mazii"
-            width={24}
-            height={24}
-            className="w-6 h-6"
-          />
-        </Button>
-      )} */}
     </div>
   );
 }
