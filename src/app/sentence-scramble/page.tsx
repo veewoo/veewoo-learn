@@ -94,7 +94,7 @@ export default function SentenceScramblePage() {
   const [sentenceData, setSentenceData] = useState<SentencePair[]>([]);
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
   const [completedSentenceIds, setCompletedSentenceIds] = useState<Set<number>>(
-    new Set()
+    new Set(),
   );
 
   const [wordPool, setWordPool] = useState<WordToken[]>([]); // Words available to pick
@@ -106,7 +106,7 @@ export default function SentenceScramblePage() {
   // Load completed sentence IDs from localStorage on component mount
   useEffect(() => {
     const savedCompletedIds = localStorage.getItem(
-      "sentence-scramble-completed"
+      "sentence-scramble-completed",
     );
     if (savedCompletedIds) {
       try {
@@ -116,13 +116,13 @@ export default function SentenceScramblePage() {
 
         // Filter out completed sentences
         const availableSentences = initialSentenceData.filter(
-          (sentence) => !completedSet.has(sentence.id)
+          (sentence) => !completedSet.has(sentence.id),
         );
         setSentenceData(availableSentences);
       } catch (error) {
         console.error(
           "Error parsing completed sentence IDs from localStorage:",
-          error
+          error,
         );
         setSentenceData(initialSentenceData);
       }
@@ -134,7 +134,7 @@ export default function SentenceScramblePage() {
   // Update sentence data when completed IDs change
   useEffect(() => {
     const availableSentences = initialSentenceData.filter(
-      (sentence) => !completedSentenceIds.has(sentence.id)
+      (sentence) => !completedSentenceIds.has(sentence.id),
     );
     setSentenceData(availableSentences);
 
@@ -155,7 +155,7 @@ export default function SentenceScramblePage() {
       shuffled.map((word, index) => ({
         id: `pool-${currentSentence.id}-${index}-${word}`,
         text: word,
-      }))
+      })),
     );
     setAssembledWords([]);
     setFeedback("");
@@ -165,158 +165,6 @@ export default function SentenceScramblePage() {
   useEffect(() => {
     initializeSentence();
   }, [currentSentenceIndex, initializeSentence]);
-
-  // function handleDragEnd(event: DragEndEvent) {
-  //   const { active, over } = event;
-
-  //   if (!over) return;
-
-  //   // Get the container/context IDs
-  //   const activeContainer = active.data.current?.sortable?.containerId;
-  //   const overContainer = over.data.current?.sortable?.containerId;
-
-  //   console.log("activeContainer", activeContainer);
-  //   console.log("overContainer", overContainer);
-
-  //   if (active.id !== over.id) {
-  //     // setAssembledWords((items) => {
-  //     //   const oldIndex = items.findIndex((item) => item.id === active.id);
-  //     //   const newIndex = items.findIndex((item) => item.id === over.id);
-  //     //   return arrayMove(items, oldIndex, newIndex);
-  //     // });
-  //     //       setAssembledWords((items) => {
-  //     //         const oldIndex = items.findIndex((item) => item.id === activeId);
-  //     //         const newIndex = items.findIndex((item) => item.id === overId);
-  //     //         if (oldIndex !== -1 && newIndex !== -1 && oldIndex !== newIndex) {
-  //     //           return arrayMove(items, oldIndex, newIndex);
-  //     //         }
-  //     //         return items;
-  //     //       });
-  //   }
-  // }
-
-  // const handleDragEnd = (event: DragEndEvent) => {
-  //   const { active, over, delta } = event;
-
-  //   console.log("active", active);
-  //   console.log("over", over);
-  //   console.log("delta", delta);
-
-  //   if (!over) return;
-
-  //   const activeId = active.id as string;
-  //   const overId = over.id as string; // This can be an item ID, SortableContext ID, or DOM element ID
-
-  //   const activeContainer = active.data.current?.sortable.containerId;
-  //   let overContainerLogicId: string | undefined;
-
-  //   console.log("activeId", activeId);
-  //   console.log("activeContainer", activeContainer);
-
-  //   // Determine the logical container ID of the drop target
-  //   if (over.data.current?.sortable?.containerId) {
-  //     // Case 1: Dropped directly onto a sortable item.
-  //     // The item's data tells us its container.
-  //     overContainerLogicId = over.data.current.sortable.containerId;
-  //   } else {
-  //     // Case 2: Not dropped onto a specific sortable item.
-  //     // Check if over.id matches known SortableContext IDs or their wrapper DIV IDs.
-  //     if (
-  //       overId === "assembled-words-sortable" ||
-  //       overId === "assembled-words-container"
-  //     ) {
-  //       overContainerLogicId = "assembled-words-sortable";
-  //     } else if (
-  //       overId === "word-pool-sortable" ||
-  //       overId === "word-pool-container"
-  //     ) {
-  //       overContainerLogicId = "word-pool-sortable";
-  //     }
-  //   }
-
-  //   if (!activeContainer || !overContainerLogicId) {
-  //     console.warn("Could not determine valid D&D logical containers:", {
-  //       activeId,
-  //       activeContainer,
-  //       overId,
-  //       overData: over.data.current,
-  //       resolvedOverContainerLogicId: overContainerLogicId,
-  //     });
-  //     return;
-  //   }
-
-  //   const itemToMove = [...wordPool, ...assembledWords].find(
-  //     (item) => item.id === activeId
-  //   );
-  //   console.log("itemToMove", itemToMove);
-  //   if (!itemToMove) return;
-
-  //   if (activeContainer === overContainerLogicId) {
-  //     // Reordering within the same list
-  //     if (activeContainer === "assembled-words-sortable") {
-  //       console.log("case 1");
-  //       setAssembledWords((items) => {
-  //         const oldIndex = items.findIndex((item) => item.id === activeId);
-  //         const newIndex = items.findIndex((item) => item.id === overId);
-  //         if (oldIndex !== -1 && newIndex !== -1 && oldIndex !== newIndex) {
-  //           return arrayMove(items, oldIndex, newIndex);
-  //         }
-  //         return items;
-  //       });
-  //     } else if (activeContainer === "word-pool-sortable") {
-  //       console.log("case 2");
-  //       setWordPool((items) => {
-  //         const oldIndex = items.findIndex((item) => item.id === activeId);
-  //         const newIndex = items.findIndex((item) => item.id === overId);
-  //         if (oldIndex !== -1 && newIndex !== -1 && oldIndex !== newIndex) {
-  //           return arrayMove(items, oldIndex, newIndex);
-  //         }
-  //         return items;
-  //       });
-  //     }
-  //   } else {
-  //     // Moving between lists
-  //     // Remove from the source list
-  //     if (activeContainer === "word-pool-sortable") {
-  //       console.log("case 3");
-  //       setWordPool((prev) => prev.filter((item) => item.id !== activeId));
-  //     } else if (activeContainer === "assembled-words-sortable") {
-  //       console.log("case 4");
-  //       setAssembledWords((prev) =>
-  //         prev.filter((item) => item.id !== activeId)
-  //       );
-  //     }
-
-  //     // Add to the destination list
-  //     if (overContainerLogicId === "assembled-words-sortable") {
-  //       console.log("case 5");
-  //       setAssembledWords((prev) => {
-  //         const targetItemIndex = prev.findIndex((item) => item.id === overId);
-  //         const newAssembled = [...prev];
-  //         if (targetItemIndex !== -1) {
-  //           // Dropped on an existing item in the destination list
-  //           newAssembled.splice(targetItemIndex, 0, itemToMove);
-  //         } else {
-  //           // Dropped on the container/empty space, or overId didn't match any item ID
-  //           newAssembled.push(itemToMove);
-  //         }
-  //         return newAssembled;
-  //       });
-  //     } else if (overContainerLogicId === "word-pool-sortable") {
-  //       console.log("case 6");
-  //       setWordPool((prev) => {
-  //         const targetItemIndex = prev.findIndex((item) => item.id === overId);
-  //         const newPool = [...prev];
-  //         if (targetItemIndex !== -1) {
-  //           newPool.splice(targetItemIndex, 0, itemToMove);
-  //         } else {
-  //           newPool.push(itemToMove);
-  //         }
-  //         return newPool;
-  //       });
-  //     }
-  //   }
-  // };
 
   const checkAnswer = () => {
     const assembledSentenceText = assembledWords
@@ -339,7 +187,7 @@ export default function SentenceScramblePage() {
       // Save to localStorage
       localStorage.setItem(
         "sentence-scramble-completed",
-        JSON.stringify(Array.from(newCompletedIds))
+        JSON.stringify(Array.from(newCompletedIds)),
       );
     } else {
       setFeedback("Incorrect. Try again!");
@@ -455,7 +303,7 @@ export default function SentenceScramblePage() {
                         { id: word.id, text: word.text },
                       ]);
                       setAssembledWords((prev) =>
-                        prev.filter((w) => w.id !== word.id)
+                        prev.filter((w) => w.id !== word.id),
                       );
                     }}
                   />

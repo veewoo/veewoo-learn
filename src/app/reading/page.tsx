@@ -5,6 +5,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ReloadIcon } from "@radix-ui/react-icons";
 import { BottomMenu } from "../../components/BottomMenu";
 import { ScrollToTopButton } from "@/components/ScrollToTopButton";
+import { ScrollToNearestQuestionButton } from "@/components/ScrollToNearestQuestionButton";
 import { TooltipState, Token } from "@/types/passage";
 import { openMazii } from "@/utils/mazii";
 import { useGetPassage } from "@/hooks/useGetPassage";
@@ -17,6 +18,7 @@ function isPunctuation(token: Token) {
 export default function ReadingPage() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const lastSelectedTextRef = useRef<string>("");
+  const questionRefs = useRef<Array<HTMLDivElement | null>>([]);
 
   const [selectedOptions, setSelectedOptions] = useState<{
     [questionIdx: number]: string;
@@ -114,6 +116,21 @@ export default function ReadingPage() {
     );
   };
 
+  const handleScrollToNearestQuestion = () => {
+    if (!questionRefs.current.length) return;
+
+    const viewportTop = window.scrollY;
+    const tolerance = 16;
+
+    const nearestQuestion = questionRefs.current.find((questionEl) => {
+      if (!questionEl) return false;
+      const questionTop = questionEl.getBoundingClientRect().top + window.scrollY;
+      return questionTop > viewportTop + tolerance;
+    });
+
+    nearestQuestion?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   const renderTokenizedPassage = () => {
     if (!data?.tokens || data.tokens.length === 0) {
       return null;
@@ -185,6 +202,9 @@ export default function ReadingPage() {
                   {data.questions.map((q, qIdx) => (
                     <div
                       key={qIdx}
+                      ref={(el) => {
+                        questionRefs.current[qIdx] = el;
+                      }}
                       className="mb-4 p-4 border rounded-lg text-lg"
                     >
                       <p className="text-2xl mb-2">{q.question}</p>
@@ -249,7 +269,7 @@ export default function ReadingPage() {
                 </div>
               )}
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center gap-3">
               {!hasCheckedAnswers && (
                 <button
                   onClick={checkAnswers}
@@ -297,7 +317,10 @@ export default function ReadingPage() {
           <p className="text-sm text-gray-400 italic">{tooltip.content.type}</p>
         </div>
       )}
-      <ScrollToTopButton bottomOffsetClassName="bottom-28" />
+      <div className="fixed right-4 bottom-28 z-50 flex gap-2">
+        <ScrollToTopButton />
+        <ScrollToNearestQuestionButton onClick={handleScrollToNearestQuestion} />
+      </div>
       <BottomMenu
         onOpenMazii={handleOpenMazii}
         onOpenGoogleSearch={handleOpenGoogleSearch}
