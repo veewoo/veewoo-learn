@@ -124,7 +124,8 @@ export default function ReadingPage() {
 
     const nearestQuestion = questionRefs.current.find((questionEl) => {
       if (!questionEl) return false;
-      const questionTop = questionEl.getBoundingClientRect().top + window.scrollY;
+      const questionTop =
+        questionEl.getBoundingClientRect().top + window.scrollY;
       return questionTop > viewportTop + tolerance;
     });
 
@@ -317,9 +318,13 @@ export default function ReadingPage() {
           <p className="text-sm text-gray-400 italic">{tooltip.content.type}</p>
         </div>
       )}
-      <div className="fixed right-4 bottom-28 z-50 flex gap-2">
+      <div className="fixed right-4 bottom-24 z-50 flex gap-2">
         <ScrollToTopButton />
-        <ScrollToNearestQuestionButton onClick={handleScrollToNearestQuestion} />
+        {data?.questions?.length ? (
+          <ScrollToNearestQuestionButton
+            onClick={handleScrollToNearestQuestion}
+          />
+        ) : null}
       </div>
       <BottomMenu
         onOpenMazii={handleOpenMazii}
