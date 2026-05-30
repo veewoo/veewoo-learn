@@ -129,7 +129,7 @@ export default function ReadingPage() {
       return questionTop > viewportTop + tolerance;
     });
 
-    nearestQuestion?.scrollIntoView({ behavior: "smooth", block: "start" });
+    nearestQuestion?.scrollIntoView({ behavior: "instant", block: "start" });
   };
 
   const renderTokenizedPassage = () => {
