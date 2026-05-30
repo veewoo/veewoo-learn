@@ -30,7 +30,7 @@ export function ScrollToTopButton({
   }, [threshold]);
 
   const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   if (!isVisible) {
