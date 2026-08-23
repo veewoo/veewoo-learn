@@ -70,8 +70,8 @@ function SortableWord({ id, text, onClick }: SortableWordProps) {
     opacity: isDragging ? 0.5 : 1,
     padding: "8px 12px",
     margin: "4px",
-    backgroundColor: "#f0f0f0",
-    border: "1px solid #ccc",
+    backgroundColor: "var(--muted)",
+    border: "1px solid var(--border)",
     borderRadius: "4px",
     cursor: "grab", // Set cursor to grab as it's a draggable item
     touchAction: "none", // Important for mobile
@@ -238,7 +238,7 @@ export default function SentenceScramblePage() {
               <h2 className="text-3xl font-bold text-green-600 mb-4">
                 🎉 Congratulations!
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-lg text-muted-foreground mb-6">
                 You&apos;ve completed all sentences! Great job!
               </p>
               <Button
@@ -262,11 +262,11 @@ export default function SentenceScramblePage() {
           <CardTitle className="text-center text-2xl mb-2">
             Sentence Scramble
           </CardTitle>
-          <div className="text-center text-sm text-gray-500 mb-2">
+          <div className="text-center text-sm text-muted-foreground mb-2">
             Progress: {completedSentenceIds.size} completed |{" "}
             {sentenceData.length} remaining
           </div>
-          <p className="text-center text-3xl font-semibold my-4 p-4 bg-gray-100 rounded-md">
+          <p className="text-center text-3xl font-semibold my-4 p-4 bg-muted rounded-md">
             {currentSentence.japanese}
           </p>
         </CardHeader>
@@ -289,7 +289,7 @@ export default function SentenceScramblePage() {
             </div>
             <div
               id="assembled-words-container"
-              className="min-h-[60px] p-3 border-2 border-dashed border-blue-400 rounded-md bg-blue-50 flex flex-wrap justify-center items-center"
+              className="min-h-[60px] p-3 border-2 border-dashed border-blue-400 rounded-md bg-blue-50 dark:bg-blue-950 flex flex-wrap justify-center items-center"
             >
               {assembledWords.length > 0 ? (
                 assembledWords.map((word) => (
@@ -309,7 +309,7 @@ export default function SentenceScramblePage() {
                   />
                 ))
               ) : (
-                <span className="text-gray-400">Drag words here</span>
+                <span className="text-muted-foreground">Drag words here</span>
               )}
             </div>
           </div>
@@ -320,7 +320,7 @@ export default function SentenceScramblePage() {
             </h3>
             <div
               id="word-pool-container"
-              className="min-h-[60px] p-3 border-2 border-dashed border-gray-300 rounded-md bg-gray-50 flex flex-wrap justify-center items-center"
+              className="min-h-[60px] p-3 border-2 border-dashed border-border rounded-md bg-muted flex flex-wrap justify-center items-center"
             >
               {wordPool.map((word) => (
                 <SortableWord

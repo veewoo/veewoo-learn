@@ -26,7 +26,10 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: "#000000",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#252525" },
+  ],
 };
 
 export const metadata: Metadata = {
@@ -54,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="application-name" content="Veewoo Learn" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -62,6 +65,19 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Veewoo Learn" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="color-scheme" content="light dark" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(() => {
+              const key = "veewoo-theme";
+              const saved = localStorage.getItem(key);
+              const theme = saved === "dark" || saved === "light"
+                ? saved
+                : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+              document.documentElement.classList.toggle("dark", theme === "dark");
+            })();`,
+          }}
+        />
         
         {/* Apple touch icons */}
         <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />

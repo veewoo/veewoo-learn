@@ -149,25 +149,25 @@ export default function SpeakingPage() {
                   key={turn.id}
                   className={`relative p-4 rounded-lg max-w-[85%] ${
                     turn.speaker === "A"
-                      ? "bg-blue-100 self-start rounded-bl-none"
-                      : "bg-green-100 self-end rounded-br-none"
+                      ? "bg-blue-100 dark:bg-blue-950 self-start rounded-bl-none"
+                      : "bg-green-100 dark:bg-green-950 self-end rounded-br-none"
                   }`}
                 >
                   <PlayIcon
                     className="w-4 h-4 absolute bottom-2 right-2 cursor-pointer"
                     onClick={() => playTurnAudio(turn)}
                   />
-                  <p className="text-lg font-medium text-gray-800">
+                  <p className="text-lg font-medium text-foreground">
                     {turn.japanese}
                   </p>
                   {turn.romaji && (
-                    <p className="text-sm text-gray-600 italic">
+                    <p className="text-sm text-muted-foreground italic">
                       {turn.romaji}
                     </p>
                   )}
-                  <p className="text-base text-gray-700 mt-1">{turn.english}</p>
+                  <p className="text-base text-foreground mt-1">{turn.english}</p>
                   {turn.start_time !== null && turn.end_time !== null && (
-                    <p className="text-xs text-gray-500 mt-2">
+                    <p className="text-xs text-muted-foreground mt-2">
                       ⏱️ {turn.start_time}s - {turn.end_time}s
                     </p>
                   )}
@@ -184,7 +184,7 @@ export default function SpeakingPage() {
               >
                 Previous
               </Button>
-              <div className="text-lg font-medium text-gray-700 whitespace-nowrap">
+              <div className="text-lg font-medium text-muted-foreground whitespace-nowrap">
                 {currentConversationIndex + 1} / {conversations.length}
               </div>
               <Button

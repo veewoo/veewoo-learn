@@ -147,7 +147,7 @@ export default function ReadingPage() {
           return (
             <span
               key={idx}
-              className="token-highlight cursor-pointer hover:bg-yellow-100 rounded transition-colors"
+              className="token-highlight cursor-pointer hover:bg-yellow-100 dark:hover:bg-yellow-950 rounded transition-colors"
               onClick={(e) => handleTokenClick(e, token)}
             >
               {token[0]}
@@ -226,15 +226,15 @@ export default function ReadingPage() {
                                 hasCheckedAnswers
                                   ? answerResults[qIdx] &&
                                     selectedOptions[qIdx] === optionKey
-                                    ? "bg-green-100 border-green-500"
+                                    ? "bg-green-100 dark:bg-green-950 border-green-500"
                                     : !answerResults[qIdx] &&
                                         selectedOptions[qIdx] === optionKey
-                                      ? "bg-red-100 border-red-500"
+                                      ? "bg-red-100 dark:bg-red-950 border-red-500"
                                       : data.answers &&
                                           data.answers[qIdx] === optionKey
-                                        ? "bg-green-50 border-green-300"
+                                        ? "bg-green-50 dark:bg-green-950 border-green-300"
                                         : "border-transparent"
-                                  : "border-transparent hover:bg-gray-50"
+                                      : "border-transparent hover:bg-muted"
                               }`}
                             >
                               <RadioGroupItem
@@ -278,14 +278,14 @@ export default function ReadingPage() {
                     Object.keys(selectedOptions).length !==
                     data.questions.length
                   }
-                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 disabled:bg-gray-300"
+                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 disabled:bg-gray-300 dark:disabled:bg-muted"
                 >
                   Check Answers
                 </button>
               )}
               <button
                 onClick={handleClick}
-                className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300"
+                className="px-4 py-2 bg-secondary text-secondary-foreground rounded hover:bg-secondary/80"
               >
                 Next Passage
               </button>
@@ -295,7 +295,7 @@ export default function ReadingPage() {
       </div>
       {tooltip.visible && tooltip.content && (
         <div
-          className="absolute bg-white border shadow-lg rounded-md p-4 z-10"
+          className="absolute bg-popover text-popover-foreground border shadow-lg rounded-md p-4 z-10"
           style={{
             left: `${tooltip.x}px`,
             top: `${tooltip.y}px`,
@@ -304,18 +304,18 @@ export default function ReadingPage() {
         >
           <button
             onClick={handleCloseTooltip}
-            className="absolute top-0 right-0 text-gray-500 font-bold hover:cursor-pointer p-1"
+            className="absolute top-0 right-0 text-muted-foreground font-bold hover:cursor-pointer p-1"
           >
             &times;
           </button>
           <h4 className="font-bold text-3xl mb-1">{tooltip.content.part}</h4>
-          <p className="font-bold text-base text-gray-600 mb-1">
+          <p className="font-bold text-base text-muted-foreground mb-1">
             {tooltip.content.reading}
           </p>
-          <p className="font-bold text-base text-gray-600 mb-1">
+          <p className="font-bold text-base text-muted-foreground mb-1">
             {tooltip.content.meaning}
           </p>
-          <p className="text-sm text-gray-400 italic">{tooltip.content.type}</p>
+          <p className="text-sm text-muted-foreground italic">{tooltip.content.type}</p>
         </div>
       )}
       <div className="fixed right-4 bottom-24 z-50 flex gap-2">

@@ -281,7 +281,7 @@ export default function Flashcards({
           <CardContent className="pt-6 text-center min-h-[400px] flex flex-col items-center justify-center">
             <div className="max-w-md">
               <h3 className="text-2xl font-bold mb-4">Session Complete!</h3>
-              <div className="mb-6 text-sm text-gray-600">
+              <div className="mb-6 text-sm text-muted-foreground">
                 <p>Known: {knownCards.size} cards</p>
                 <p>Unknown: {unknownCards.size} cards</p>
               </div>
@@ -316,13 +316,13 @@ export default function Flashcards({
           <>
             <CardContent className="pt-4 pb-4 flex flex-col items-center">
               <div className="flex justify-between w-full max-w-md mb-2">
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-muted-foreground">
                   {viewMode === "single"
                     ? `Card ${currentCardIndex + 1} of ${shuffledKanji.length}`
                     : `${shuffledKanji.length} Kanji Cards`}
                 </span>
                 {viewMode === "single" && (
-                  <div className="text-xs text-gray-500 flex gap-2">
+                  <div className="text-xs text-muted-foreground flex gap-2">
                     <span className="text-green-600">✓ {knownCards.size}</span>
                     <span className="text-red-600">✗ {unknownCards.size}</span>
                   </div>
@@ -351,7 +351,7 @@ export default function Flashcards({
                 <>
                   {/* Progress bar */}
                   <div className="w-full max-w-md mb-4">
-                    <div className="w-full bg-gray-200 rounded-full h-3 relative overflow-hidden">
+                    <div className="w-full bg-muted rounded-full h-3 relative overflow-hidden">
                       {/* Background for current position */}
                       <div
                         className="bg-blue-300 h-3 rounded-full absolute left-0"
@@ -394,7 +394,7 @@ export default function Flashcards({
                         )}
                       </div>
                     </div>
-                    <div className="flex justify-between text-xs text-gray-500 mt-1">
+                    <div className="flex justify-between text-xs text-muted-foreground mt-1">
                       <span>Progress</span>
                       <span>
                         {knownCards.size + unknownCards.size} /{" "}
@@ -457,7 +457,7 @@ export default function Flashcards({
                       <Button
                         onClick={handleUnknown}
                         variant="outline"
-                        className="flex-1 flex items-center gap-2 text-red-600 border-red-200 hover:bg-red-50"
+                          className="flex-1 flex items-center gap-2 text-red-600 border-red-200 hover:bg-red-50 dark:hover:bg-red-950"
                       >
                         <CrossCircledIcon className="h-4 w-4" />
                         Unknown
@@ -541,12 +541,12 @@ export default function Flashcards({
                     return (
                       <div
                         key={index}
-                        className={`h-40 cursor-pointer hover:shadow-lg transition-all border rounded-lg bg-white relative ${
+                        className={`h-40 cursor-pointer hover:shadow-lg transition-all border rounded-lg bg-card relative ${
                           isKnown
-                            ? "border-green-300 bg-green-50"
+                            ? "border-green-300 bg-green-50 dark:bg-green-950"
                             : isUnknown
-                            ? "border-red-300 bg-red-50"
-                            : "border-gray-200"
+                            ? "border-red-300 bg-red-50 dark:bg-red-950"
+                            : "border-border"
                         }`}
                         onClick={() => {
                           setCurrentCardIndex(index);
@@ -568,7 +568,7 @@ export default function Flashcards({
                           <div className="text-4xl font-bold mb-2">
                             {kanjiItem.word}
                           </div>
-                          <div className="text-sm text-gray-500">
+                          <div className="text-sm text-muted-foreground">
                             {kanjiItem.reading}
                           </div>
                         </div>

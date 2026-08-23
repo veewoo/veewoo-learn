@@ -2,10 +2,14 @@
 
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default function Index() {
   return (
     <div className="container mx-auto p-4">
+      <div className="flex justify-end mb-4">
+        <ThemeToggle />
+      </div>
       <h1 className="text-3xl font-bold mb-8 text-center">Welcome to Veewoo Learn</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <Link href="/reading" passHref>
